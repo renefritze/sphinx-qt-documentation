@@ -8,4 +8,4 @@ if [ ${1} == "no_install" ] ; then
   ~/.local/bin/sphinx-build -W tests/document01 /tmp/build |& grep -q "RuntimeError"
 else
   ~/.local/bin/sphinx-build -W tests/document01 /tmp/build
-endif
+fi
